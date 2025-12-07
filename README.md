@@ -3,8 +3,8 @@
   Jan Held, Sanghyun Son, Renaud Vandeghen, Daniel Rebain, Matheus Gadelha, Yi Zhou, Anthony Cioppa, Ming C. Lin, Marc Van Droogenbroeck, Andrea Tagliasacchi
 </p>
 
-<div align="center">
-  <a href="https://meshsplatting.github.io/meshsplatting/">Project page</a> &nbsp;|&nbsp;
+<div align="center">  https://meshsplatting.github.io/
+  <a href="https://meshsplatting.github.io/">Project page</a> &nbsp;|&nbsp;
   <a href="https://arxiv.org/abs/2509.25122">Arxiv</a> &nbsp; 
 </div>
 <br>
