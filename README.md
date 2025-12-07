@@ -133,7 +133,8 @@ Note that all PLY files store only RGB colors, which on average leads to a 2 dB 
 
 ## Download the Unity project to explore physics-based interactions and walkable scenes
 
-If you want to try out physics interactions or explore the environment with a character, you can download the Unity project from the link below: <a href="https://drive.google.com/drive/folders/1XzCqfYbsB7Ff9HI6B90AtWM-9VKTsLel">link</a>. To achieve the highest visual quality, you should use 4× supersampling.
+If you want to try out physics interactions or explore the environment with a character, you can download the Unity project from the link below: <a href="https://drive.google.com/drive/folders/12WHLj4nkdzafMsGnm7Otj58iWXYRQyKm?usp=sharing">link</a>. To achieve the highest visual quality, you should use 4× supersampling.
+Note that all PLY files store only RGB colors, which on average leads to a 2 dB drop in PSNR. For the highest visual quality, please refer to our viewer.
 
 ## Object Extraction
 First, you need to create a mask of the objects you want to extract. 
