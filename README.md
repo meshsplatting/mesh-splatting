@@ -52,7 +52,7 @@ Finally, you can compile the custom CUDA kernels by running the following comman
 bash compile.sh
 cd submodules/simple-knn
 pip install . --no-build-isolation
-cd subdmodules/effrdel
+cd submodules/effrdel
 pip install -e .
 ```
 
