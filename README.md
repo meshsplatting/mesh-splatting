@@ -56,6 +56,18 @@ cd submodules/effrdel
 pip install -e .
 ```
 
+[Optional] We integrated the drop-in replacements from [Taming-3dgs](https://humansensinglab.github.io/taming-3dgs/)<sup>1</sup> with [fused ssim](https://github.com/rahul-goel/fused-ssim/tree/main) into the original codebase to speed up training times. To install fused_ssim. you just have to install:
+```
+# Install from GitHub (recommended)
+pip install git+https://github.com/rahul-goel/fused-ssim/ --no-build-isolation
+
+# Or clone and install locally
+git clone https://github.com/rahul-goel/fused-ssim.git
+cd fused-ssim
+pip install . --no-build-isolation
+```
+The codebase will automatically switch to fused_ssim after installation.
+
 ## Training
 To train our model, you can use the following command:
 ```bash
