@@ -40,7 +40,7 @@ Then, we suggest to use a virtual environment to install the dependencies.
 ```bash
 micromamba create -n mesh_splatting python=3.11
 micromamba activate mesh_splatting
-micromamba install nvidia/label/cuda-12.6.0::cuda
+micromamba install --channel-priority flexible nvidia/label/cuda-12.6.0::cuda
 
 pip install torch==2.7.1 torchvision==0.22.1
 pip install -r requirements.txt

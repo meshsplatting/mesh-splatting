@@ -3,6 +3,7 @@ plyfile
 mediapy
 opencv-python
 matplotlib
+setuptools==65.0.0
 tqdm 
 trimesh
 mmengine
